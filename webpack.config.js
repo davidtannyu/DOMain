@@ -2,7 +2,7 @@ module.exports = {
   entry: './lib/main.js',
   output: {
     path: './lib',
-    filename: 'bundle.js'
+    filename: 'DOMain.js'
   },
   resolve: {
     extensions: ['.js', '*']
