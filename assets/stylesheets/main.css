@@ -2,3 +2,12 @@ img.class-face {
   height: 300px;
   width: 300px;
 }
+
+img.lightswitch {
+  width: 200px;
+  height: 200px;
+}
+
+.toggled {
+  transform: scaleY(-1);
+}

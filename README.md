@@ -69,6 +69,9 @@ arguments.
 #### addClass / removeClass
 Adds or removes a class to each DOMNodeCollection element.
 
+#### toggleClass
+Adds to each DOMNodeCollection element if it's not there. Otherwise, remove it.
+
 
 ### EventListener
 
