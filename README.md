@@ -7,6 +7,7 @@ To use DOMain, download and webpack this library. This will generate a DOMain.js
 file which you can find in the lib folder.
 
 To install webpack: `npm install`
+
 After installation, run webpack by using: `npm run ww`
 
 ```html
