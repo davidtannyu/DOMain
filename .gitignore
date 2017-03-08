@@ -2,5 +2,3 @@ node_modules/
 .byebug_history
 .DS_Store
 npm-debug.log
-DOMain.js
-DOMain.js.map
