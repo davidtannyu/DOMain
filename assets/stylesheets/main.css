@@ -11,3 +11,9 @@ img.lightswitch {
 .toggled {
   transform: scaleY(-1);
 }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
