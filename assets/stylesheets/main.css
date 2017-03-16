@@ -29,6 +29,7 @@ body {
 body > div {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
 }
@@ -46,7 +47,7 @@ body > div *, footer {
 }
 
 html {
-  height: 100%;
+  display: flex;
 }
 
 div.DOMain-html-empty {
