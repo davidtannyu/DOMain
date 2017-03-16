@@ -64,10 +64,23 @@ div.DOMain-on-off {
   display: flex;
 }
 
+div.lights-on {
+  background-color: white;
+}
+
 div.DOMain-ajax {
   background-color: black;
 }
 body > h1 {
   color: white;
   font-family: 'Loved by the King', cursive;
+}
+
+img.circuitswitch {
+  height: 128px;
+  width: 128px;
+}
+
+div.lightswitch-image {
+  display: flex;
 }
