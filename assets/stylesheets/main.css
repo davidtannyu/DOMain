@@ -14,6 +14,54 @@ img.lightswitch {
 
 body {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  height: 100%;
+  background-color: black;
+}
+
+body > div {
+  display: flex;
+  height: 100%;
+}
+
+body > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body > div * {
+  font-size: 20px;
+  font-family: 'Loved by the King', cursive;
+}
+
+html {
+  height: 100%;
+}
+
+div.DOMain-html-empty {
+  background-color: antiquewhite;
+}
+
+div.DOMain-append-remove {
+  background-color: lightgray;
+  color: gray;
+}
+
+div.DOMain-addClass-removeClass {
+  background-color: yellow;
+}
+
+div.DOMain-on-off {
+  background-color: #000066;
+}
+
+div.DOMain-ajax {
+  background-color: aliceblue;
+}
+body > h1 {
+  color: white;
+  font-family: 'Loved by the King', cursive;
 }
