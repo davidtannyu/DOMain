@@ -8,6 +8,11 @@ img.lightswitch {
   height: 200px;
 }
 
+img.light {
+  width: 150px;
+  height: 250px;
+}
+
 .toggled {
   transform: scaleY(-1);
 }
@@ -18,18 +23,18 @@ body {
   align-items: center;
   justify-content: center;
   height: 100%;
-  background-color: black;
+  background-color: springgreen;
 }
 
 body > div {
   display: flex;
-  height: 100%;
 }
 
 body > div > div {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 20px;
 }
 
 body > div * {
@@ -56,6 +61,7 @@ div.DOMain-addClass-removeClass {
 
 div.DOMain-on-off {
   background-color: #000066;
+  display: flex;
 }
 
 div.DOMain-ajax {
