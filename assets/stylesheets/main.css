@@ -73,6 +73,7 @@ div.lights-on {
 
 div.DOMain-ajax {
   background-color: black;
+  width: 400px;
 }
 body > h1 {
   color: white;
@@ -131,4 +132,8 @@ footer a {
 html {
   background: url("../images/bg.jpg");
   background-size: cover;
+}
+
+form.ajax {
+  width: 300px;
 }
