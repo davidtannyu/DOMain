@@ -37,7 +37,7 @@ body > div > div {
   padding: 20px;
 }
 
-body > div * {
+body > div *, footer {
   font-size: 20px;
   font-family: 'Loved by the King', cursive;
 }
@@ -83,4 +83,27 @@ img.circuitswitch {
 
 div.lightswitch-image {
   display: flex;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  color: lightyellow;
+  width: 50%;
+}
+
+footer > h1 {
+  text-align: center;
+}
+
+footer > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+footer a {
+  color: lightyellow;
+  text-decoration: none;
 }
