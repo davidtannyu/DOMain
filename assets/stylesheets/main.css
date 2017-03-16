@@ -23,6 +23,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100%;
+  margin: 0px;
 }
 
 body > div {
@@ -126,5 +127,5 @@ footer a {
 
 html {
   background: url("../images/bg.jpg");
-  background-size: 100%;
+  background-size: cover;
 }
