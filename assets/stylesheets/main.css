@@ -85,6 +85,9 @@ div.lightswitch-image {
   display: flex;
 }
 
+body > div * {
+  font-size: 18px;
+}
 
 footer {
   display: flex;
@@ -102,6 +105,20 @@ footer > div {
   justify-content: space-between;
 }
 
+button {
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  background-color: cornflowerblue;
+  margin: 5px;
+}
+
+button:focus {
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
 
 footer a {
   color: lightyellow;
