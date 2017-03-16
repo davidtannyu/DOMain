@@ -41,8 +41,8 @@ body > div > div {
 }
 
 body > div *, footer {
-  font-size: 20px;
-  font-family: 'Loved by the King', cursive;
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
 }
 
 html {
@@ -73,11 +73,11 @@ div.lights-on {
 
 div.DOMain-ajax {
   background-color: black;
-  width: 400px;
+  width: 500px;
 }
 body > h1 {
   color: white;
-  font-family: 'Loved by the King', cursive;
+  font-family: 'Playfair Display', serif;
 }
 
 img.circuitswitch {
