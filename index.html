@@ -1,52 +1,92 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
    <script src="lib/DOMain.js" charset="utf-8"></script>
    <script src="lib/interaction.js" charset="utf-8"></script>
    <link rel="stylesheet" type="text/css" href="./assets/stylesheets/main.css" media="screen" />
+   <script src="https://use.fontawesome.com/be44a5832e.js"></script>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Loved+by+the+King" rel="stylesheet">
     <title>DOMain demonstration!</title>
   </head>
   <body>
-    <div class="DOMain-html-empty">
-      <form class="text-display">
-        <input class="text" type="text"/>
-        <button type="submit">Change Text (html)</button>
-      </form>
-      <p class="text-display"></p>
-      <form class="clear-display">
-        <button type="submit">Clear Text (empty)</button>
-      </form>
-    </div>
-    <div class="DOMain-append-remove">
-      <p class="donkey">DONKEY</p>
-      <form class="append-tail">
-        <button type="submit">Pin the tail on the donkey (append)</button>
-      </form>
-      <form class="remove-tails">
-        <button type="submit">Remove the tails on the donkey (remove)</button>
-      </form>
-    </div>
-    <div class="DOMain-addClass-removeClass">
-      <img class="class-face" src="./assets/images/noclassface.png"/>
-      <form class="add-class">
-        <button type="submit">Become classy (addClass, attr)</button>
-      </form>
-      <form class="remove-class">
-        <button type="submit">Become unfashionable (removeClass, attr)</button>
-      </form>
-    </div>
-    <div class="DOMain-on-off">
-      <div class="lightswitch-image">
-        <img class="lightswitch" src="./assets/images/lightswitch.png"/>
-        <img class="light off" src="./assets/images/lightbulb-off.png"/>
+    <h1> Welcome to my DOMain </h1>
+    <div>
+      <div class="DOMain-html-empty">
+        <p class="text-display"></p>
+        <form class="text-display">
+          <input class="text" type="text"/>
+          <button type="submit">Change Text (html)</button>
+        </form>
+        <form class="clear-display">
+          <button type="submit">Clear Text (empty)</button>
+        </form>
       </div>
-      <form class="on">
-        <button type="submit">Connect lightswitch to bulb(on, toggleClass)</button>
-      </form>
-      <form class="off">
-        <button type="submit">Disconnect lightswitch to bulb(off)</button>
-      </form>
+      <div class="DOMain-append-remove">
+        <p class="donkey">DONKEY</p>
+        <form class="append-tail">
+          <button type="submit">Pin the tail on the donkey (append)</button>
+        </form>
+        <form class="remove-tails">
+          <button type="submit">Remove the tails on the donkey (remove)</button>
+        </form>
+      </div>
+      <div class="DOMain-addClass-removeClass">
+        <img class="class-face" src="./assets/images/noclassface.png"/>
+        <form class="add-class">
+          <button type="submit">Become classy (addClass, attr)</button>
+        </form>
+        <form class="remove-class">
+          <button type="submit">Become unfashionable (removeClass, attr)</button>
+        </form>
+      </div>
+      <div class="DOMain-on-off">
+        <div class="lightswitch-image">
+          <img class="lightswitch" src="./assets/images/lightswitch.png"/>
+          <img class="circuitswitch open" src="./assets/images/open-switch.png"/>
+          <img class="light off" src="./assets/images/lightbulb-off.png"/>
+        </div>
+        <form class="on">
+          <button type="submit">Connect lightswitch to bulb(on, toggleClass)</button>
+        </form>
+        <form class="off">
+          <button type="submit">Disconnect lightswitch to bulb(off)</button>
+        </form>
+      </div>
+      <div class="DOMain-ajax">
+        <div class="giphy-images">
+          <img class="giphy">
+          <img src="./assets/images/giphy.gif"/>
+        </div>
+        <form class='ajax'>
+          <input class="query" type="text"/>
+          <button type="submit">Have a gif(t)!(ajax)</button>
+        </form>
+      </div>
+    </div>
   </body>
+  <footer>
+    <h1> Check out my other domains </h1>
+    <div>
+      <div>
+        <a href="https://github.com/davidtannyu">
+          <i class="fa fa-github fa-5x" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.linkedin.com/in/davidtandata/">
+          <i class="fa fa-linkedin fa-5x" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://angel.co/david-tan-20">
+          <i class="fa fa-angellist fa-5x" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://davidtan.pro">
+          <i class="fa fa-id-card fa-5x" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
 </html>

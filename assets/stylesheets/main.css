@@ -8,6 +8,119 @@ img.lightswitch {
   height: 200px;
 }
 
+img.light {
+  width: 150px;
+  height: 250px;
+}
+
 .toggled {
   transform: scaleY(-1);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: springgreen;
+}
+
+body > div {
+  display: flex;
+}
+
+body > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+body > div *, footer {
+  font-size: 20px;
+  font-family: 'Loved by the King', cursive;
+}
+
+html {
+  height: 100%;
+}
+
+div.DOMain-html-empty {
+  background-color: antiquewhite;
+}
+
+div.DOMain-append-remove {
+  background-color: lightgray;
+  color: gray;
+}
+
+div.DOMain-addClass-removeClass {
+  background-color: yellow;
+}
+
+div.DOMain-on-off {
+  background-color: #000066;
+  display: flex;
+}
+
+div.lights-on {
+  background-color: white;
+}
+
+div.DOMain-ajax {
+  background-color: black;
+}
+body > h1 {
+  color: white;
+  font-family: 'Loved by the King', cursive;
+}
+
+img.circuitswitch {
+  height: 128px;
+  width: 128px;
+}
+
+div.lightswitch-image {
+  display: flex;
+}
+
+body > div * {
+  font-size: 18px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  color: lightyellow;
+  width: 50%;
+}
+
+footer > h1 {
+  text-align: center;
+}
+
+footer > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  background-color: cornflowerblue;
+  margin: 5px;
+}
+
+button:focus {
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+footer a {
+  color: lightyellow;
+  text-decoration: none;
 }
