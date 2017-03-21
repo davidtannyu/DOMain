@@ -138,3 +138,9 @@ html {
 form.ajax {
   width: 300px;
 }
+
+div.about-DOMain {
+  position: relative;
+  margin-right: 0;
+  font-family: 'Playfair Display', serif;
+}
