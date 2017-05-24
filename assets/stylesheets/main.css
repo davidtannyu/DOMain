@@ -185,3 +185,7 @@ div.about-DOMain {
 button:hover {
   cursor: pointer;
 }
+
+.lightswitch:hover {
+  cursor:pointer;
+}
